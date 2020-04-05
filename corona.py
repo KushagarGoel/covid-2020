@@ -57,7 +57,7 @@ test_set = test_datagen.flow_from_directory('dataset/test',
 
 #Fitting the classifier could take time depending on hardware of PC
 classifier.fit_generator(training_set,
-                         samples_per_epoch = 261,
+                         samples_per_epoch = 221,
                          nb_epoch = 25,
                          validation_data = test_set,
                          nb_val_samples = 41)
