@@ -2,3 +2,8 @@ To get the dataset
 
 
 https://github.com/ieee8023/covid-chestxray-dataset
+
+After downloading the dataset,folow the steps-
+
+1. Create a folder dataset
+2. 
