@@ -5,5 +5,16 @@ https://github.com/ieee8023/covid-chestxray-dataset
 
 After downloading the dataset,folow the steps-
 
-1. Create a folder dataset
-2. 
+1. Create a folders in order 
+        
+                          dataset
+                          /    \
+                      train    test
+                      /   \    /   \
+                    ha    na  ha   na
+
+2. Now according to metadata seperate the images as covid and non-covid
+3. Now paste most of the covid images in dataset>train>ha and leftover(30) images in dataset>test>ha.
+4. Similarly for non-covid in na.
+
+Now you are ready to train the model
